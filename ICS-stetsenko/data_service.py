@@ -34,10 +34,10 @@ def get_clients():
     return clients_list
 
 def show_clients(clients):
-    """виводить на екран список клієнтів заданого діапазона
+    """виводить на екран список заданого діапазона
 
     Args:
-        clients ([list]): список клієнтів
+        clients ([list]): довідник балансу
     """
 
     client_code_from = input("З якого кода? ")
